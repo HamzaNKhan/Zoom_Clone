@@ -75,6 +75,10 @@
   color: white;
 }
 
+.cl-userButtonPopoverActionButton:hover{
+  color: white
+}
+
 /* =============================== */
 
 @layer utilities {
@@ -151,11 +155,11 @@
   }
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
   }
-}
+} */
